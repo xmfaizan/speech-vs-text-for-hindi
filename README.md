@@ -21,4 +21,4 @@ Initially, we employed the Natural Language Toolkit (NLTK) for feature extractio
 
 We achieved more promising results using the Stanza module, which incorporates a robust Hindi NLP model. This approach yielded significantly better performance in differentiating between spoken and written Hindi texts.
 
-Our analysis demonstrates the importance of selecting appropriate NLP tools for language-specific tasks, particularly when working with non-English languages like Hindi. It also highlights the value of using balanced datasets for more accurate and reliable results.
+
