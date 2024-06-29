@@ -5,6 +5,10 @@ This project focuses on analyzing the EMILLE corpus to distinguish between spoke
 1. `mixed.csv`: Contains all text files with outputs labeled as 1 for spoken and 0 for written Hindi.
 2. `balanced.csv`: Comprises an equal number of spoken and written Hindi texts.
 
+## Datasets
+
+We expect the balanced dataset (`balanced.csv`) to yield better results due to its equal representation of written and spoken texts from the corpora. This balance helps mitigate potential biases in the model training process.
+
 ## Feature Extraction
 
 We explored feature extraction using two different NLP modules:
@@ -17,4 +21,4 @@ Initially, we employed the Natural Language Toolkit (NLTK) for feature extractio
 
 We achieved more promising results using the Stanza module, which incorporates a robust Hindi NLP model. This approach yielded significantly better performance in differentiating between spoken and written Hindi texts.
 
-Our analysis demonstrates the importance of selecting appropriate NLP tools for language-specific tasks, particularly when working with non-English languages like Hindi.
+Our analysis demonstrates the importance of selecting appropriate NLP tools for language-specific tasks, particularly when working with non-English languages like Hindi. It also highlights the value of using balanced datasets for more accurate and reliable results.
